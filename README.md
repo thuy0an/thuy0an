@@ -25,12 +25,12 @@
 ### 👋 Hi, I'm An, but you can call me Dora ^^
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
   <tr>
-    <td width="45%" style="vertical-align: top; padding-right: 20px; text-align: justify; line-height: 1.5; font-size: 17px;">
+    <td width="55%" style="vertical-align: top; padding-right: 20px; text-align: justify; line-height: 1.5; font-size: 17px;">
       <p>I'm a final-year <strong>Software Engineering</strong> student with a strong passion for<strong>backend development</strong> and building reliable, scalable systems.</p>
       <p>I enjoy exploring new technologies and tackling coding challenges.</p>
       <p>I'm always eager to bring my best to any team I join, with a strong sense of responsibility and dedication.</p>
     </td>
-    <td width="55%" style="vertical-align: top;">
+    <td width="45%" style="vertical-align: top;">
       <img 
         src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjQzc29xY3Qxc2R4OW1xMmc0bGI0eHJ6cmVlM3lmMTdtN243czBtMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HZzyYYSDpcfHTrQIC9/giphy.gif" 
         width="100%" 
