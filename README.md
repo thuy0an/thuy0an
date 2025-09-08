@@ -93,7 +93,7 @@
         src="https://github-readme-stats.vercel.app/api?username=thuy0an&show_icons=true&count_private=true&theme=react&hide_border=true&title_color=F4ABB4&icon_color=F8D866&text_color=FFFFFF" 
       /></a>
       <a href="#"><img alt="thuy0an's Top Languages" 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=thuy0an&layout=compact&theme=react&langs_count=10&hide_border=true&title_color=F4ABB4&icon_color=F8D866&hide=Jupyter%20Notebook,Roff,TSQL&text_color=FFFFFF" 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=thuy0an&layout=compact&theme=react&langs_count=10&hide_border=true&title_color=F4ABB4&icon_color=F8D866&hide=Jupyter%20Notebook,Roff,Hack,TSQL&text_color=FFFFFF" 
         height="250px"/></a>
 
 
