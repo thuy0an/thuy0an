@@ -56,8 +56,16 @@
 - 💻 Passionate about coding, problem-solving, and constantly learning new technologies.
 - 🌱 Currently exploring web development and backend programming.
 - 🤝 Open to collaboration and always eager to connect with fellow developers.
-- ❤️ *Only those who know it’s impossible yet still try — that’s true romance.* ❤️
----
+<p style="font-weight: bold;">
+  ❤️ <em>Only those who know it’s impossible yet still try — that’s true romance.</em>
+  <img 
+    src="assets/elySip.gif" 
+    width="2%" 
+    style="vertical-align: middle; margin-left: 6px; display: inline;"
+  />
+</p>
+<hr />
+
 
 
 ## 🌟 Skills
