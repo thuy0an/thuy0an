@@ -21,8 +21,15 @@
 </p>
 </div>
 
+<p style="font-weight: bold; font-size: 16px;">
+  <img 
+    src="assets/kianaWave.gif" 
+    width="4%" 
+    style="vertical-align: middle;"
+  />
+  <strong>Hi, I'm An, but you can call me Dora ^^</strong>
+</p>
 
-### 👋 Hi, I'm An, but you can call me Dora ^^
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
   <tr>
     <td width="55%" style="vertical-align: top; padding-right: 20px; text-align: justify; line-height: 1.5; font-size: 17px;">
