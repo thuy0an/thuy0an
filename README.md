@@ -33,7 +33,7 @@
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
   <tr>
     <td width="55%" style="vertical-align: top; padding-right: 20px; text-align: justify; line-height: 1.5; font-size: 17px;">
-      <p>I'm a final-year <strong>Software Engineering</strong> student with a strong passion for<strong>backend development</strong> and building reliable, scalable systems.</p>
+      <p>I'm a final-year <strong>Software Engineering</strong> student with a strong passion for <strong>backend development</strong> and building reliable, scalable systems.</p>
       <p>I enjoy exploring new technologies and tackling coding challenges.</p>
       <p>I'm always eager to bring my best to any team I join, with a strong sense of responsibility and dedication.</p>
     </td>
