@@ -16,7 +16,7 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="mailto:diepthuyandta@gmail.com"><img width="35px" alt="Gmail" title="MailToMe" src="https://img.icons8.com/?size=100&id=Y2GfpkgYNp42&format=png&color=f4abb4"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.linkedin.com/in/di%E1%BB%87p-th%E1%BB%A5y-an-887a33256/"><img width="35px" alt="LinkedIn" title="MyLinkedIn" src="https://img.icons8.com/?size=100&id=8808&format=png&color=f4abb4"></a>
+  <a href="https://www.linkedin.com/in/diepthuyandta1808/"><img width="35px" alt="LinkedIn" title="MyLinkedIn" src="https://img.icons8.com/?size=100&id=8808&format=png&color=f4abb4"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
 </p>
 </div>
