@@ -51,11 +51,9 @@ Final-year **Software Engineering** student at SaiGon University · GPA **3.66/4
 
 ## 🛠 Projects
 
-| Project | Stack |
-|---|---|
-| 🗺 Tour Booking | Java · Spring Boot · Spring Cloud · React · PostgreSQL · Docker |
-| 📚 Library Management System | C# · ASP.NET Core · RESTful API · MySQL |
-| 🎭 Face Recognition Attendance | Python · OpenCV |
+- 🗺 Tour Booking
+- 📚 Library Management System
+- 🎭 Face Recognition Attendance
 
 ---
 
