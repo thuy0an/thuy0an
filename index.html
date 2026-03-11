@@ -17,6 +17,8 @@
       <a href="#hero" class="nav-logo">Dora ✦</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#stats">Stats</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -28,7 +30,7 @@
   <section id="hero">
     <div class="hero-content">
       <h1 class="hero-name">Diệp Thụy An</h1>
-      <p class="hero-tagline">Software Engineering Student &amp; Backend Developer</p>
+      <p class="hero-tagline">Software Engineering Student &amp; Backend Developer → Cloud DevOps</p>
       <div class="hero-gif">
         <img src="assets/kianaWave.gif" alt="waving" />
         <span>Hi, I'm An — but you can call me <strong>Dora</strong> ^^</span>
@@ -56,21 +58,21 @@
           <div>
             <strong>Education</strong>
             <p>Software Engineering at SaiGon University</p>
-            <p class="highlight">GPA: 3.67 / 4.0</p>
+            <p class="highlight">GPA: 3.66 / 4.0</p>
           </div>
         </div>
         <div class="about-card">
           <span class="about-icon">💻</span>
           <div>
             <strong>Passion</strong>
-            <p>Coding, problem-solving, and constantly learning new technologies.</p>
+            <p>Backend development, system design, and building reliable, scalable systems.</p>
           </div>
         </div>
         <div class="about-card">
-          <span class="about-icon">🌱</span>
+          <span class="about-icon">☁️</span>
           <div>
-            <strong>Currently Exploring</strong>
-            <p>Web development and backend programming.</p>
+            <strong>Career Goal</strong>
+            <p>Transitioning into <strong>Cloud DevOps</strong> — cloud architecture, CI/CD automation, and infrastructure management.</p>
           </div>
         </div>
         <div class="about-card">
@@ -88,6 +90,85 @@
     </div>
   </section>
 
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="section-inner">
+      <h2 class="section-title">💼 Work Experience</h2>
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-title">Backend C# Developer Intern</h3>
+            <p class="exp-company">TMA Solutions</p>
+          </div>
+          <span class="exp-date">Nov 2025 – Mar 2026</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Developed backend for a multi-tenant SaaS platform using <strong>Clean Architecture</strong> and <strong>DDD</strong> principles, creating 20+ RESTful API endpoints for user management and a state-machine tenant request workflow.</li>
+          <li>Investigated Keycloak and built the authentication system using <strong>OIDC</strong> protocols, configuring JWT validation, Role-Based Access Control (RBAC), and secure token flows.</li>
+          <li>Designed normalized <strong>SQL Server</strong> database schemas with 10+ entities using <strong>Entity Framework Core</strong>, applying Repository and Unit of Work patterns to ensure data consistency.</li>
+          <li>Built <strong>Redis</strong> distributed caching, background services, and an SMTP email service with MailKit, achieving a 70% reduction in database queries and 85%+ test coverage using <strong>xUnit</strong> and <strong>Moq</strong>.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">🛠 Projects</h2>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3 class="project-title">🗺 Tour Booking</h3>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Spring Cloud</span>
+            <span class="tag">React</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+        <ul class="project-bullets">
+          <li>Architected a microservices system with 6 services (User, Tour, Booking, Payment, API Gateway, Service Registry) with clear separation of concerns and inter-service communication.</li>
+          <li>Owned the tour-service, delivering 27+ REST endpoints for tour catalog, departures, schedules, Cloudinary image uploads, and custom tour requests with admin moderation workflow.</li>
+          <li>Implemented Google OAuth2 social login with JWT-based authentication and automated email delivery via Spring Mail for booking confirmations and account verification.</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3 class="project-title">📚 Library Management System</h3>
+          <div class="project-tags">
+            <span class="tag">C#</span>
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">RESTful API</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <ul class="project-bullets">
+          <li>Co-led a 5-person team; built 15+ REST API endpoints covering reservation, ticketing, and order management.</li>
+          <li>Owned project initialization, full WinForms Admin Panel UI development, and all business logic modules.</li>
+          <li>Designed normalized database schema (ERD, 3NF), Figma UI prototypes, and validated system reliability via Postman.</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3 class="project-title">🎭 Face Recognition Attendance</h3>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">OpenCV</span>
+          </div>
+        </div>
+        <ul class="project-bullets">
+          <li>Built a facial-recognition attendance app using a laptop webcam for real-time clock-ins/outs.</li>
+          <li>Tracked leave days and attendance status; generated monthly summaries (CSV) for reporting.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <!-- Skills Section -->
   <section id="skills">
     <div class="section-inner">
@@ -97,8 +178,9 @@
         <h3>Languages</h3>
         <div class="badges">
           <img src="https://img.shields.io/badge/Java-orange?style=for-the-badge" alt="Java" />
-          <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white" alt="C++" />
           <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+          <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white" alt="C++" />
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
           <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
           <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
         </div>
@@ -108,7 +190,18 @@
         <h3>Backend Frameworks / Libraries</h3>
         <div class="badges">
           <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
+          <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Cloud" />
+          <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
           <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3>Frontend</h3>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+          <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+          <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
         </div>
       </div>
 
@@ -116,6 +209,7 @@
         <h3>Databases</h3>
         <div class="badges">
           <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
           <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
         </div>
       </div>
@@ -128,6 +222,50 @@
           <img src="https://skillicons.dev/icons?i=latex" height="40" alt="LaTeX" title="LaTeX" />
           <img src="https://cdn.simpleicons.org/trello/0052CC" height="40" alt="Trello" title="Trello" />
           <img src="https://cdn.simpleicons.org/canva/00C4CC" height="40" alt="Canva" title="Canva" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Awards Section -->
+  <section id="awards">
+    <div class="section-inner">
+      <h2 class="section-title">🏆 Certifications &amp; Awards</h2>
+      <div class="awards-grid">
+        <div class="award-card">
+          <span class="award-icon">🌐</span>
+          <div>
+            <strong>TOEIC 730</strong>
+            <p>ETS (IIG Vietnam) — Oct 2025</p>
+          </div>
+        </div>
+        <div class="award-card">
+          <span class="award-icon">☁️</span>
+          <div>
+            <strong>Vice President — AWS Cloud Club SGU</strong>
+            <p>Dec 2025 – Present · Led workshops on AWS services, engaging 100+ students per session.</p>
+          </div>
+        </div>
+        <div class="award-card">
+          <span class="award-icon">🎖</span>
+          <div>
+            <strong>University-level "Student of 5 Merits"</strong>
+            <p>Saigon University — Jan 2026</p>
+          </div>
+        </div>
+        <div class="award-card">
+          <span class="award-icon">🌟</span>
+          <div>
+            <strong>Exemplary Student Award</strong>
+            <p>"Thanh niên tiên tiến làm theo lời Bác" — Saigon University, May 2025</p>
+          </div>
+        </div>
+        <div class="award-card">
+          <span class="award-icon">📋</span>
+          <div>
+            <strong>Standing Committee Member — Youth Union, IT Faculty</strong>
+            <p>Apr 2024 – Present · Led 5–6 events per semester (200–300 participants each).</p>
+          </div>
         </div>
       </div>
     </div>
