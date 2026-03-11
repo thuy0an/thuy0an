@@ -1,78 +1,42 @@
-
 <div align="center">
 
-  
   <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Satisfy&weight=500&size=30&pause=1000&color=F4ABB4&center=true&vCenter=true&repeat=false&width=450&height=80&lines=Di%E1%BB%87p+Th%E1%BB%A5y+An"/></a>
 
+  <p align="center">
+    <a href="https://thuy0an.github.io/thuy0an/">
+      <img src="https://img.shields.io/badge/🌐 Portfolio-View Live-F4ABB4?style=for-the-badge" alt="Portfolio" />
+    </a>
+  </p>
 
+  <p align="center">
+    <a href="https://www.facebook.com/an.thuys.39"><img width="32px" alt="Facebook" src="https://img.icons8.com/?size=100&id=118467&format=png&color=f4abb4"/></a>
+    &#8287;
+    <a href="https://leetcode.com/thuyan18"><img width="32px" alt="LeetCode" src="https://img.icons8.com/?size=100&id=6cdjttfIiwc0&format=png&color=f4abb4"></a>
+    &#8287;
+    <a href="https://discord.com/users/dora1808"><img width="32px" alt="Discord" src="https://img.icons8.com/?size=100&id=30888&format=png&color=f4abb4"></a>
+    &#8287;
+    <a href="mailto:diepthuyandta@gmail.com"><img width="32px" alt="Gmail" src="https://img.icons8.com/?size=100&id=Y2GfpkgYNp42&format=png&color=f4abb4"></a>
+    &#8287;
+    <a href="https://www.linkedin.com/in/diepthuyandta1808/"><img width="32px" alt="LinkedIn" src="https://img.icons8.com/?size=100&id=8808&format=png&color=f4abb4"></a>
+  </p>
 
-  <!-- Portfolio link -->
-<p align="center">
-  <a href="https://thuy0an.github.io/thuy0an/">
-    <img src="https://img.shields.io/badge/🌐 Portfolio-View Live-F4ABB4?style=for-the-badge" alt="Portfolio" />
-  </a>
-</p>
+  <img src="assets/kianaWave.gif" width="3%" style="vertical-align:middle"/> <strong>Hi, I'm An — but you can call me Dora ^^</strong>
 
-  <!-- Social icons section -->
-<p align="center">
-  <a href="https://www.facebook.com/an.thuys.39"><img width="35px" alt="Facebook" title="MyFacebook" src="https://img.icons8.com/?size=100&id=118467&format=png&color=f4abb4"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://leetcode.com/thuyan18"><img width="35px" alt="LeetCode" title="MyLeetCode" src="https://img.icons8.com/?size=100&id=6cdjttfIiwc0&format=png&color=f4abb4"></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://discord.com/users/dora1808"><img width="35px" alt="Discord" title="MyAccountDiscord" src="https://img.icons8.com/?size=100&id=30888&format=png&color=f4abb4"></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="mailto:diepthuyandta@gmail.com"><img width="35px" alt="Gmail" title="MailToMe" src="https://img.icons8.com/?size=100&id=Y2GfpkgYNp42&format=png&color=f4abb4"></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.linkedin.com/in/diepthuyandta1808/"><img width="35px" alt="LinkedIn" title="MyLinkedIn" src="https://img.icons8.com/?size=100&id=8808&format=png&color=f4abb4"></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-</p>
 </div>
 
-<p style="font-weight: bold; font-size: 16px;">
-  <img 
-    src="assets/kianaWave.gif" 
-    width="4%" 
-    style="vertical-align: middle;"
-  />
-  <strong>Hi, I'm An, but you can call me Dora ^^</strong>
-</p>
-
-<table border="0" cellspacing="0" cellpadding="0" width="100%">
-  <tr>
-    <td width="55%" style="vertical-align: top; padding-right: 20px; text-align: justify; line-height: 1.5; font-size: 17px;">
-      <p>I'm a final-year <strong>Software Engineering</strong> student with a solid foundation in <strong>backend development</strong> and system design.</p>
-      <p>Passionate about reliability and scalability, my career goal is to transition into <strong>Cloud DevOps</strong> — focusing on cloud architecture, CI/CD automation, and infrastructure management.</p>
-      <p>I'm always eager to bring my best to any team I join, with a strong sense of responsibility and dedication.</p>
-    </td>
-    <td width="45%" style="vertical-align: top;">
-      <img 
-        src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjQzc29xY3Qxc2R4OW1xMmc0bGI0eHJ6cmVlM3lmMTdtN243czBtMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HZzyYYSDpcfHTrQIC9/giphy.gif" 
-        width="100%" 
-        alt="coding"
-      />
-    </td>
-  </tr>
-</table>
-
-
-
+---
 
 ## 🚀 About Me
-- 🎓 I'm studying **Software Engineering at SaiGon University**  
-  Current GPA: **3.66/4.0**
-- 💻 Passionate about backend development, system design, and building reliable, scalable systems.
-- 🌱 Aspiring to transition into **Cloud DevOps** — cloud architecture, CI/CD automation, and infrastructure management.
-- 🏢 **Backend C# Developer Intern** at TMA Solutions (Nov 2025 – Mar 2026).
-- 🤝 Open to collaboration and always eager to connect with fellow developers.
-<p style="font-weight: bold;">
-  ❤️ <em>Only those who know it’s impossible yet still try — that’s true romance.</em>
-  <img 
-    src="assets/elySip.gif" 
-    width="2%" 
-    style="vertical-align: middle; margin-left: 6px; display: inline;"
-  />
-</p>
-<hr />
+
+Final-year **Software Engineering** student at SaiGon University (GPA: **3.66/4.0**), passionate about **backend development** and aspiring to transition into **Cloud DevOps**.
+
+- 💻 Backend dev · system design · scalable architectures
+- ☁️ Goal: Cloud architecture, CI/CD automation, infrastructure management
+- 🤝 Open to collaboration
+
+> ❤️ *Only those who know it's impossible yet still try — that's true romance.* <img src="assets/elySip.gif" width="2%" style="vertical-align:middle"/>
+
+---
 
 
 
@@ -85,19 +49,16 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-
 ### Backend Frameworks/Libraries  
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-
 ### Frontend  
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 
 ### Databases  
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
@@ -116,18 +77,6 @@
   <img width="12" />
   <img src="https://cdn.simpleicons.org/canva/00C4CC" height="40" alt="canva logo"  />
 </div>
-
----
-
-
-
-## 💼 Work Experience
-
-**Backend C# Developer Intern** — TMA Solutions *(Nov 2025 – Mar 2026)*
-- Developed backend for a multi-tenant SaaS platform using **Clean Architecture** and **DDD** principles, creating 20+ RESTful API endpoints for user management and a state-machine tenant request workflow.
-- Investigated Keycloak and built the authentication system using **OIDC** protocols, configuring JWT validation, **Role-Based Access Control (RBAC)**, and secure token flows.
-- Designed normalized **SQL Server** database schemas with 10+ entities using **Entity Framework Core**, applying Repository and Unit of Work patterns.
-- Built **Redis** distributed caching, background services, and an SMTP email service with MailKit, achieving a 70% reduction in database queries and 85%+ test coverage using **xUnit** and **Moq**.
 
 ---
 
@@ -178,5 +127,4 @@
 ## 🧠 LeetCode Stats
 > *Although I'm not very skilled yet, I believe that with persistence and setting aside time every day — and sticking to it — my efforts will pay off in the long run.*
 <img src="https://leetcard.jacoblin.cool/thuyan18?theme=dark&font=Roboto&ext=heatmap" />
-
 
