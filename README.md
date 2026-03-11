@@ -51,9 +51,14 @@ Final-year **Software Engineering** student at SaiGon University · GPA **3.66/4
 
 ## 🛠 Projects
 
-- 🗺 Tour Booking
-- 📚 Library Management System
-- 🎭 Face Recognition Attendance
+**🗺 Tour Booking** — *Java · Spring Boot · Spring Cloud · React · PostgreSQL · Docker*
+Microservices system (6 services) with 27+ REST endpoints, Google OAuth2 login, JWT auth, and Cloudinary image uploads.
+
+**📚 Library Management System** — *C# · ASP.NET Core · MySQL*
+Co-led a 5-person team; built 15+ REST API endpoints for reservations, ticketing & order management with full WinForms Admin Panel.
+
+**🎭 Face Recognition Attendance** — *Python · OpenCV*
+Real-time webcam-based clock-in/out app with leave tracking and monthly CSV attendance reports.
 
 ---
 
