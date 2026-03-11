@@ -6,6 +6,13 @@
 
 
 
+  <!-- Portfolio link -->
+<p align="center">
+  <a href="https://thuy0an.github.io/thuy0an/">
+    <img src="https://img.shields.io/badge/🌐 Portfolio-View Live-F4ABB4?style=for-the-badge" alt="Portfolio" />
+  </a>
+</p>
+
   <!-- Social icons section -->
 <p align="center">
   <a href="https://www.facebook.com/an.thuys.39"><img width="35px" alt="Facebook" title="MyFacebook" src="https://img.icons8.com/?size=100&id=118467&format=png&color=f4abb4"/></a>
