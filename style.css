@@ -198,6 +198,32 @@ section {
   transform: translateY(-2px);
 }
 
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 32px;
+  background: var(--pink);
+  border: 2px solid var(--pink);
+  color: var(--bg);
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background var(--transition), color var(--transition), transform var(--transition);
+}
+
+.btn-secondary:hover {
+  background: transparent;
+  color: var(--pink);
+  transform: translateY(-2px);
+}
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
 .hero-image {
   flex: 1 1 260px;
   max-width: 380px;
@@ -433,6 +459,10 @@ footer {
   }
 
   .hero-gif {
+    justify-content: center;
+  }
+
+  .hero-cta {
     justify-content: center;
   }
 
