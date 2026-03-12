@@ -66,6 +66,7 @@ Real-time webcam-based clock-in/out app with leave tracking and monthly CSV atte
 - ☁️ **Vice President** — AWS Cloud Club SGU *(Dec 2025 – Present)*
 - 🎖 **University-level "Student of 5 Merits"** — Saigon University, Jan 2026
 - 🌟 **Exemplary Student** — "Thanh niên tiên tiến làm theo lời Bác", May 2025
+- 📋 **Ban Thường Vụ Đoàn Khoa Công nghệ thông tin** — Đại học Sài Gòn *(Apr 2024 – Present)*
 
 ---
 
