@@ -63,10 +63,11 @@ Real-time webcam-based clock-in/out app with leave tracking and monthly CSV atte
 ## 🏆 Highlights
 
 - 🌐 **TOEIC 730** — ETS (IIG Vietnam), Oct 2025
+- 📋 **Standing Committee Member — Youth Union, IT Faculty** — Saigon University *(Apr 2024 – Present)*
 - ☁️ **Vice President** — AWS Cloud Club SGU *(Dec 2025 – Present)*
 - 🎖 **University-level "Student of 5 Merits"** — Saigon University, Jan 2026
 - 🌟 **Exemplary Student** — "Thanh niên tiên tiến làm theo lời Bác", May 2025
-- 📋 **Ban Thường Vụ Đoàn Khoa Công nghệ thông tin** — Đại học Sài Gòn *(Apr 2024 – Present)*
+
 
 ---
 
