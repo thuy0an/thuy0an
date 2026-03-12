@@ -1,6 +1,6 @@
 /* =====================================================
    Portfolio — Diệp Thụy An
-   Color palette: #F4ABB4 (pink), #1a1a2e (dark bg)
+   Color palette: #F4ABB4 (pink), supports dark/light mode
    ===================================================== */
 
 *, *::before, *::after {
@@ -13,12 +13,24 @@
   --pink:       #F4ABB4;
   --pink-dark:  #d98a95;
   --bg:         #0d0d1a;
+  --bg-alt:     rgba(22, 22, 39, 0.6);
   --bg-card:    #161627;
   --bg-nav:     rgba(13, 13, 26, 0.92);
   --text:       #e8e8f0;
   --text-muted: #9999bb;
   --radius:     12px;
   --transition: 0.25s ease;
+}
+
+[data-theme="light"] {
+  --pink:       #c96d7a;
+  --pink-dark:  #a8525e;
+  --bg:         #ffffff;
+  --bg-alt:     rgba(230, 230, 240, 0.6);
+  --bg-card:    #f5f5fa;
+  --bg-nav:     rgba(255, 255, 255, 0.92);
+  --text:       #1a1a2e;
+  --text-muted: #555577;
 }
 
 html {
@@ -101,6 +113,29 @@ body {
 .nav-links a:hover::after,
 .nav-links a.active::after {
   width: 100%;
+}
+
+/* ── Theme Toggle ── */
+.theme-toggle {
+  background: none;
+  border: 1.5px solid rgba(244, 171, 180, 0.4);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color var(--transition), background var(--transition), transform var(--transition);
+  color: var(--pink);
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  background: rgba(244, 171, 180, 0.12);
+  border-color: var(--pink);
+  transform: rotate(20deg);
 }
 
 /* ── Section commons ── */
@@ -238,7 +273,7 @@ section {
 
 /* ── About ── */
 #about {
-  background: linear-gradient(180deg, var(--bg) 0%, rgba(22, 22, 39, 0.6) 100%);
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 100%);
 }
 
 .about-grid {
@@ -360,7 +395,7 @@ section {
 
 /* ── Stats ── */
 #stats {
-  background: linear-gradient(180deg, rgba(22, 22, 39, 0.6) 0%, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
 }
 
 .stats-grid {
@@ -443,7 +478,7 @@ section {
 
 /* ── Experience ── */
 #experience {
-  background: linear-gradient(180deg, var(--bg) 0%, rgba(22, 22, 39, 0.6) 100%);
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 100%);
 }
 
 .experience-card {
@@ -580,7 +615,7 @@ section {
 
 /* ── Awards ── */
 #awards {
-  background: linear-gradient(180deg, rgba(22, 22, 39, 0.6) 0%, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
 }
 
 .awards-grid {

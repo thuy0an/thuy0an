@@ -22,6 +22,7 @@
         <li><a href="#stats">Stats</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">🌙</button>
     </div>
   </nav>
 
@@ -255,10 +256,12 @@
 
       <div class="stats-grid">
         <img
+          id="gh-stats"
           alt="thuy0an's Github Stats"
           src="https://github-readme-stats.vercel.app/api?username=thuy0an&show_icons=true&count_private=true&theme=react&hide_border=true&title_color=F4ABB4&icon_color=F8D866&text_color=FFFFFF"
         />
         <img
+          id="gh-langs"
           alt="thuy0an's Top Languages"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=thuy0an&layout=compact&theme=react&langs_count=10&hide_border=true&title_color=F4ABB4&icon_color=F8D866&hide=Jupyter%20Notebook,Roff,Hack,TSQL&text_color=FFFFFF"
         />
@@ -270,6 +273,7 @@
           <em>Although I'm not very skilled yet, I believe that with persistence and setting aside time every day — and sticking to it — my efforts will pay off in the long run.</em>
         </p>
         <img
+          id="leetcode-card"
           src="https://leetcard.jacoblin.cool/thuyan18?theme=dark&font=Roboto&ext=heatmap"
           alt="LeetCode Stats"
           class="leetcode-card"
@@ -313,7 +317,39 @@
   </footer>
 
   <script>
-    // Smooth active nav highlight on scroll
+    // ── Theme toggle ──
+    const toggleBtn = document.getElementById('themeToggle');
+    const root = document.documentElement;
+
+    const GH_STATS_DARK  = 'https://github-readme-stats.vercel.app/api?username=thuy0an&show_icons=true&count_private=true&theme=react&hide_border=true&title_color=F4ABB4&icon_color=F8D866&text_color=FFFFFF';
+    const GH_STATS_LIGHT = 'https://github-readme-stats.vercel.app/api?username=thuy0an&show_icons=true&count_private=true&theme=default&hide_border=true&title_color=c96d7a&icon_color=c96d7a&text_color=1a1a2e';
+    const GH_LANGS_DARK  = 'https://github-readme-stats.vercel.app/api/top-langs/?username=thuy0an&layout=compact&theme=react&langs_count=10&hide_border=true&title_color=F4ABB4&icon_color=F8D866&hide=Jupyter%20Notebook,Roff,Hack,TSQL&text_color=FFFFFF';
+    const GH_LANGS_LIGHT = 'https://github-readme-stats.vercel.app/api/top-langs/?username=thuy0an&layout=compact&theme=default&langs_count=10&hide_border=true&title_color=c96d7a&icon_color=c96d7a&hide=Jupyter%20Notebook,Roff,Hack,TSQL&text_color=1a1a2e';
+    const LC_DARK  = 'https://leetcard.jacoblin.cool/thuyan18?theme=dark&font=Roboto&ext=heatmap';
+    const LC_LIGHT = 'https://leetcard.jacoblin.cool/thuyan18?theme=light&font=Roboto&ext=heatmap';
+
+    function applyTheme(theme) {
+      const isLight = theme === 'light';
+      root.setAttribute('data-theme', isLight ? 'light' : 'dark');
+      toggleBtn.textContent = isLight ? '☀️' : '🌙';
+      toggleBtn.setAttribute('title', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+      toggleBtn.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+      document.getElementById('gh-stats').src  = isLight ? GH_STATS_LIGHT : GH_STATS_DARK;
+      document.getElementById('gh-langs').src  = isLight ? GH_LANGS_LIGHT : GH_LANGS_DARK;
+      document.getElementById('leetcode-card').src = isLight ? LC_LIGHT : LC_DARK;
+      localStorage.setItem('theme', theme);
+    }
+
+    // Apply saved or default theme on load
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    applyTheme(savedTheme);
+
+    toggleBtn.addEventListener('click', () => {
+      const current = root.getAttribute('data-theme') || 'dark';
+      applyTheme(current === 'dark' ? 'light' : 'dark');
+    });
+
+    // ── Active nav highlight on scroll ──
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-links a');
 
