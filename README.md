@@ -13,8 +13,6 @@
     &#8287;
     <a href="https://leetcode.com/thuyan18"><img width="32px" alt="LeetCode" src="https://img.icons8.com/?size=100&id=6cdjttfIiwc0&format=png&color=f4abb4"></a>
     &#8287;
-    <a href="https://discord.com/users/dora1808"><img width="32px" alt="Discord" src="https://img.icons8.com/?size=100&id=30888&format=png&color=f4abb4"></a>
-    &#8287;
     <a href="mailto:diepthuyandta@gmail.com"><img width="32px" alt="Gmail" src="https://img.icons8.com/?size=100&id=Y2GfpkgYNp42&format=png&color=f4abb4"></a>
     &#8287;
     <a href="https://www.linkedin.com/in/diepthuyandta1808/"><img width="32px" alt="LinkedIn" src="https://img.icons8.com/?size=100&id=8808&format=png&color=f4abb4"></a>
